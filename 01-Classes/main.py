@@ -1,18 +1,15 @@
 class Person:
     arms_count = 2
 
-    def __init__(self):
-        self.name = 'Test'
+    def __init__(self, name):
+        self.name = name
 
     def greet(self):
         print(f'Hi {self.name}!')
 
 
-me = Person()
-you = Person()
-
-me.name = 'Nick'
-you.name = 'Vasya'
+me = Person('Nick')
+you = Person('Vasya')
 
 print(me.name, you.name)
 me.greet()
