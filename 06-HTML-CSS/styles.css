@@ -1,8 +1,21 @@
-p {
+.primary-text {
     color: white;
     background-color: darkblue;
     font-family: 'Comic Sans MS', serif;
+}
+
+p {
     padding: 8px;
     border: 8px green solid;
     margin: 16px;
+    color: red;
+}
+
+#test_section {
+    background-color: purple;
+}
+
+#test_section div {
+    padding: 16px;
+    border: 8px yellow dashed;
 }
