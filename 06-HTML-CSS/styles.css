@@ -1,0 +1,8 @@
+p {
+    color: white;
+    background-color: darkblue;
+    font-family: 'Comic Sans MS', serif;
+    padding: 8px;
+    border: 8px green solid;
+    margin: 16px;
+}
